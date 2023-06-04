@@ -1,8 +1,11 @@
 import openai
 from django.shortcuts import render
 from django.http import JsonResponse
+from chatbot_project.config import API_KEY
 
-api_key = "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"
+# Use the API_KEY variable in your code
+
+
 
 def chatbot(request):
     if request.method == 'POST':
